@@ -5,9 +5,6 @@ description = "Command line interface for unasync. Fork of https://github.com/le
 authors = [
   { name = "Leynier Gutiérrez González", email = "leynier41@gmail.com"},
 ]
-homepage = "https://github.com/leynier/unasync-cli/"
-repository = "https://github.com/leynier/unasync-cli"
-documentation = "https://github.com/leynier/unasync-cli"
 readme = "README.md"
 license = "MIT"
 requires-python = ">= 3.9"
@@ -16,6 +13,11 @@ dependencies = [
   "unasync >=0.6.0",
   "setuptools >=78.1.1",
 ]
+
+[project.urls]
+homepage = "https://github.com/leynier/unasync-cli"
+repository = "https://github.com/leynier/unasync-cli"
+documentation = "https://github.com/leynier/unasync-cli"
 
 [project.scripts]
 unasync = "unasync_cli.main:app"
